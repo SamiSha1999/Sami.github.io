@@ -1,0 +1,34 @@
+
+body {
+    background-color: black;
+    background-image: url("images/arctic.jpg");
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.midtext {
+ text-align: center;
+
+
+}
+.whitetext{
+  color: white;
+}
+
+.whitetextbox{
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  border-radius: 100;
+  background-position: center;
+  width: 20%;
+
+
+
+}
+.grad {
+  background: linear-gradient(to bottom right, black, black, dimgray, black, black);
+  background: linear-gradient(to right, black, black , dimgray, black, black); /* Standard syntax */
+
+    width: 40%;
+}
