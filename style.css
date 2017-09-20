@@ -1,15 +1,17 @@
 
+*{
+  padding: 0;
+  margin: 0;
+}
 body {
-    background-image: url("images/spacestars.jpg");
+    background-image: url("images/stars_sky_night_4k.jpg");
     background-size: 100%;
+
 }
 .midtext {
  text-align: center;
 
 
-}
-.whitetext{
-  color: white;
 }
 
 .whitetextbox{
@@ -20,10 +22,41 @@ body {
   background-position: center;
   width: 20%;
 }
-.fontsize:{
-fontsize 12;
+.font{
+color: white;
+font-size: 150%;
+font-weight:bold;
+padding: 5px;
+margin: 5px;
 }
 img.logoresize {
   max-width:100%;
   max-height:100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: Blue;
+     position: fixed;
+     top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: Navy;
 }
