@@ -8,29 +8,33 @@ body {
     background-size: 100%;
 
 }
-.midtext {
- text-align: center;
-
-
+div.background {
+  background: url("images/stars_sky_night_4k.jpg") repeat;
+  border: 2px solid white;
 }
 
-.whitetextbox{
-  background-color: white;
-  border-color: white;
-  border-style: solid;
-  border-radius: 100;
-  background-position: center;
-  width: 20%;
-}
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
 .font{
+  font-family: 'Oswald', sans-serif;
 color: white;
-font-size: 150%;
+font-size: 24px;
 font-weight:bold;
 padding: 5px;
 margin: 5px;
 }
 img.logo {
   padding-top: 50px;
+}
+div.transbox {
+    margin: 30px;
+    background-color: Navy;
+    border: 1px solid white;
+    opacity: 0.85;
+}
+
+div.transbox p {
+  margin: 2%;
+
 }
 
 ul {
