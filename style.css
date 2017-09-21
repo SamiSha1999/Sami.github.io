@@ -13,37 +13,15 @@ div.background {
   border: 2px solid white;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Oswald:700');
-.font{
-  font-family: 'Oswald', sans-serif;
-color: white;
-font-size: 24px;
-font-weight:bold;
-padding: 5px;
-margin: 5px;
-}
-img.logo {
-  padding-top: 50px;
-}
-div.transbox {
-    margin: 30px;
-    background-color: Navy;
-    border: 1px solid white;
-    opacity: 0.85;
-}
-
-div.transbox p {
-  margin: 2%;
-
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
     background-color: Blue;
-     position: fixed;
+position: fixed;
+
+
      top: 0;
     width: 100%;
 }
@@ -53,13 +31,47 @@ li {
 }
 
 li a {
-    display: block;
+    display: block!important;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    clear: both;
+
 }
 
 li a:hover {
     background-color: Navy;
+}
+
+.test{
+
+  float:
+}
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+.font{
+
+  font-family: 'Oswald', sans-serif;
+color: white;
+font-size: 24px;
+font-weight:bold;
+padding: 5px;
+margin: 5px;
+}
+img.logo {
+  width: 25%;
+  height: 25%;
+  padding-top: 50px;
+}
+div.transbox {
+    margin: 30px;
+    background-color: Navy;
+    border: 1px solid white;
+    opacity: 0.85;
+    border-radius: 10px;
+}
+
+div.transbox p {
+  margin: 2%;
+
 }
