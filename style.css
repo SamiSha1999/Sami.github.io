@@ -19,7 +19,7 @@ ul {
     padding: 0;
     overflow: auto;
     background-color: Blue;
-position: fixed;
+    position: fixed;
 
 
      top: 0;
@@ -63,15 +63,14 @@ img.logo {
   height: 25%;
   padding-top: 50px;
 }
-div.transbox {
+.box {
     margin: 30px;
-    background-color: Navy;
-    border: 1px solid white;
-    opacity: 0.85;
+    background-color: rgba(0,0,128,0.4);
+    border: 3px solid white;
     border-radius: 10px;
 }
 
-div.transbox p {
+.box p {
   margin: 2%;
 
 }
