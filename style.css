@@ -78,9 +78,8 @@ img.logo {
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
     width: 180px;
-    background-color: rgba(0,0,128,0.4);
+    background-color: rgba(0,0,128,0);
     float: right;
     clear: left;
 }
@@ -93,7 +92,8 @@ div.gallery img {
 
 div.desc {
     font-size: 14px;
-    text-align: center;
-
+    text-align: left;
+ padding: 0px;
+ margin: 0px;
 
 }
