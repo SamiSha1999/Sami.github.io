@@ -82,6 +82,7 @@ div.gallery {
     background-color: rgba(0,0,128,0);
     float: right;
     clear: left;
+    border: 1px solid white;
 }
 
 div.gallery img {
@@ -92,8 +93,8 @@ div.gallery img {
 
 div.desc {
     font-size: 14px;
-    text-align: left;
- padding: 0px;
+    text-align: center;
+ padding: 5px;
  margin: 0px;
 
 }
