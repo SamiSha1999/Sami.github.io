@@ -45,10 +45,30 @@ li a:hover {
     background-color: Navy;
 }
 
-.test{
-
-  float:
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;
 }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-steam{
+  background: black;
+  color:white
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Oswald:700');
 .font{
 
